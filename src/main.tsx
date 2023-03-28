@@ -6,8 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename="/unboxbanking">
-      <App />
-    </BrowserRouter>
+    {/* <BrowserRouter basename="/unboxbanking"> */}
+    <App />
+    {/* </BrowserRouter> */}
   </React.StrictMode>
 );
